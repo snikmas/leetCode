@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct Node {
+  struct Node *next;
+  int value;
+};
+
+// 1. initialize struct Node
+// 2. Create Header
+
+struct Node *insertData(int data, struct Node *head){
+  struct Node *temp = (struct Node *)malloc(sizeof(struct Node));
+  temp->value = data;
+  temp->next = NULL;
+  if(head != NULL) temp->next = head;
+  head = temp;
+
+  return head;
+}
+
+void output(struct Node *head){
+  printf("lists:\n");
+  while(head != NULL){
+    printf("%d ", head->value);
+    head = head->next;
+  }
+  printf("\n");
+}
+
+
+int main(void){
+
+  struct Node *head = malloc(sizeof(struct Node));
+  int n, data;
+  
+  head = NULL;
+
+  printf("How many numbers, ma little boy?\n>>");
+  scanf("%i", &n);
+
+  for(int i = 0; i < n; i++){
+    printf("enter your data:\n");
+    scanf("%i", &data);
+
+    head = insertData(data, head);
+  }
+  output(head);
+
+  return 0;
+}
