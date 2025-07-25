@@ -1,42 +1,118 @@
+// linked lists in c
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 struct Node {
-  int value;
+  int data;
   struct Node *next;
 };
 
-struct Node *insertData(struct Node *current, int num){
-  struct Node *temp = (struct Node*) malloc(sizeof(struct Node));
-  temp->value = num;
-  temp->next = NULL;
-  if(current != NULL) temp->next = current;
-  current = temp;
-  return temp;
+int getNum(){
+  int num;
+  printf("Gimme your number:\n");
+  scanf("%i");
+
+  return num;
 }
 
-void output(struct Node *current){
-  while(current != NULL){
-    printf("num: %i", current->value);
+void insert(struct Node **head){
+  
+  int num;
+  printf("Your number: ");
+  scanf("%i", &num);
+    
+  struct Node *newNode = malloc(sizeof(struct Node));
+  newNode->next = NULL;
+  newNode->data = num;
+
+  if(*head == NULL){
+    *head = newNode;
+  } else {
+    struct Node *current = *head;
+    while(current->next != NULL) 
     current = current->next;
-  }
+
+  current->next = newNode;
 }
+}; // tail
+
+void insertHead(struct Node *head, int num){
+
+};
+void insertIndex(struct Node *head, int num, int index){
+
+};
+void output(struct Node *head){
+
+};
+void deleteHeading(struct Node *head){
+
+};
+void deleteTailinf(struct Node *head){
+
+};
+void deleteByIndex(struct Node *head, int index){
+
+};
+void searchByValue(struct Node *head, int value){
+
+};
 
 int main(void){
 
   struct Node *head = NULL;
   int n, num;
 
-  printf("how many numbers do you want, ma little boy?\n>> ");
-  scanf("%i", &n);
+  int choice = 0;
 
-  printf("Go ahead:\n");
-  for(int i = 0; i < n; i++){
-    scanf("%i", &num);
-    head = insertData(head, num);
-  }
+  printf("Hi ma boyi! This is a Linked List program. hat would you like to do?\n"
+    ">> 1 - insert a Number at the tail\n"
+    ">> 2 -> insert a Number at the head\n"
+    ">> 3 -> insert a Number at N position\n"
+    ">> 4 -> output LinkedList\n"
+    ">> 5 -> delete a Number from head\n"
+    ">> 6 -> delete a Number from tail\n"
+    ">> 7 -> delete a Number from N position\n"
+    ">> 8 -> search for a NUmber by its value\n");
 
-  output(head);
+  int number;
+  scanf("%i", &choice);
+  switch(choice){
+    case 1:
+      insert(&head);
+      break;
+    case 2:
+      number = getNum();
+      insertHead(head, number);
+    break;
+    case 3:
+      number = getNum();
+      printf("index:\n>> ");
+      int index = scanf("%i");
+      insertIndex(head, number, index);
+      break;
+    case 4:
+      output(head);
+      break;
+    case 5:
+      deleteHeading(head);
+      break;
+    case 6:
+      deleteTailinf(head);
+      break;
+    case 7:
+      number = getNum();
+      break;
+    case 8:
+      number = getNum();
+      searchByValue(head, number);
+      break;
+    
+  };
+
+
+
 
   return 0;
 }
