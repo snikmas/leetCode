@@ -41,20 +41,48 @@ void insertHead(struct Node *head, int num){
 
 };
 void insertIndex(struct Node *head, int num, int index){
+  
 
 };
 void output(struct Node *head){
 
 };
-void deleteHeading(struct Node *head){
-
+void deleteHeading(struct Node **head){
+  
+  if (*head == NULL) return;
+  struct Node *head1 = *head;
+  *head = (*head)->next;
+  free(head1);
 };
-void deleteTailinf(struct Node *head){
 
-};
-void deleteByIndex(struct Node *head, int index){
+void deleteTailinf(struct Node **head){
+  if(*head == NULL) return;
+  struct Node *head1 = *head;
+  while(head1->next->next != NULL){
+    head1 = head1->next;
+  }
 
+  free(head1->next);
+  head1->next = NULL;
 };
+
+void deleteByIndex(int index){
+
+  struct Node *temp = head;
+  if(index == 1) {
+    head = head->next;
+    free(temp);
+    return;
+  }
+  for(int i = 0; i < index - 2; i++){
+    temp = temp->next;
+  }
+
+  struct Node *temp1 = temp->next;
+  temp->next = temp->next->next; // or temp->next = temp1->next
+  free(temp1);
+};
+
 void searchByValue(struct Node *head, int value){
 
 };
@@ -78,6 +106,7 @@ int main(void){
 
   int number;
   scanf("%i", &choice);
+  
   switch(choice){
     case 1:
       insert(&head);
@@ -96,10 +125,10 @@ int main(void){
       output(head);
       break;
     case 5:
-      deleteHeading(head);
+      deleteHeading(&head);
       break;
     case 6:
-      deleteTailinf(head);
+      deleteTailinf(&head);
       break;
     case 7:
       number = getNum();

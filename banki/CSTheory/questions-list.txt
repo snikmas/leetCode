@@ -6,8 +6,8 @@ CS Theory
 5	  What is scope / lexical scope in javascript? 
 6	  What is polymorphism?
 7	  What is encapsulation? 
-8	  What is a Linked List
-9	  What is a Doubly Linked List
+8	  What is a Linked  1
+9	  What is a Doubly Linked List 1
 10	What is a Queue
 11	What is a Stack
 12	What is a Hash Table
