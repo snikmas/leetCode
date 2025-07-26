@@ -6,7 +6,7 @@
 // you need a base case to prevent infinite recursion
 
 // example
-function facotrial(n){
+function factorial(n){
   if (n == 0) return 1; // base case
   else {
     return n * facotrial(n - 1)
