@@ -1,6 +1,6 @@
 // What are types (js)?
 
-// Types in Js refer to the different categories of values that variables can hold; Js is a dynamically typed language, means that variables can hold any type of data and the type can change during runtime
+// Types in Js are different categories of values that variables can hold; Js is a dynamically typed language, means that variables can hold any type of data and the type can change during runtime
 
 // JS has 7 built-in data types: 
 // 1. Primitive Types

@@ -1,0 +1,64 @@
+
+
+01 Explain event delegation ☑️
+02 Explain how this works in JavaScript ☑️
+03 Explain how prototypal inheritance works
+04 What do you think of AMD vs CommonJS?
+05 Explain why the following doesn't work as an IIFE: function foo(){ }();. What needs to be changed to properly make it an IIFE?
+06 What's the difference between a variable that is: null, undefined or undeclared? How would you go about checking for any of these states?
+07 What is a closure, and how/why would you use one?
+08 Can you describe the main difference between a .forEach loop and a .map() loop and why you would pick one versus the other?
+09 What's a typical use case for anonymous functions?
+10 How do you organize your code? (module pattern, classical inheritance?)
+11 What's the difference between host objects and native objects?
+11 Difference between: function Person(){}, var person = Person(), and var person = new Person()?
+12 What's the difference between .call and .apply?
+13 Explain Function.prototype.bind.
+14 When would you use document.write()?
+15 What's the difference between feature detection, feature inference, and using the UA string?
+16 Explain Ajax in as much detail as possible.
+17 What are the advantages and disadvantages of using Ajax?
+18 Explain how JSONP works (and how it's not really Ajax).
+19 Have you ever used JavaScript templating? If so, what libraries have you used?
+20 Explain "hoisting".
+21 Describe event bubbling.
+22 What's the difference between an "attribute" and a "property"?
+23 Why is extending built-in JavaScript objects not a good idea?
+24 Difference between document load event and document DOMContentLoaded event?
+25 What is the difference between == and ===?
+26 Explain the same-origin policy with regards to JavaScript.
+27 Make this work: duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
+28 Why is it called a Ternary expression, what does the word "Ternary" indicate?
+29 What is "use strict";? what are the advantages and disadvantages to using it?
+30 Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5
+31 Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
+32 Why would you use something like the load event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
+33 Explain what a single page app is and how to make one SEO-friendly.
+34 What is the extent of your experience with Promises and/or their polyfills?
+35 What are the pros and cons of using Promises instead of callbacks?
+36 What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
+37 What tools and techniques do you use debugging JavaScript code?
+38 What language constructions do you use for iterating over object properties and array items?
+39 Explain the difference between mutable and immutable objects.
+40 Explain the difference between synchronous and asynchronous functions.
+41 What is event loop? What is the difference between call stack and task queue?
+42 Explain the differences on the usage of foo between function foo() {} and var foo = function() {}
+43 What are the differences between variables created using let, var or const?
+44 What are the differences between ES6 class and ES5 function constructors?
+45 Can you offer a use case for the new arrow => function syntax? How does this new syntax differ from other functions?
+46 What advantage is there for using the arrow syntax for a method in a constructor?
+47 What is the definition of a higher-order function?
+48 Can you give an example for destructuring an object or an array?
+49 ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?
+50 Can you give an example of a curry function and why this syntax offers an advantage?
+51 What are the benefits of using spread syntax and how is it different from rest syntax?
+52 How can you share code between files?
+53 Why you might want to create static class members?
+
+// JavaScript General
+54 Can you name two programming paradigms important for JavaScript app developers? 
+55 What is functional programming?
+56 What is the difference between classical inheritance and prototypal inheritance?
+57 What are the pros and cons of functional programming vs object-oriented programming?
+58 What are two-way data binding and one-way data flow, and how are they different?
+59 What is asynchronous programming, and why is it important in JavaScript?1  
