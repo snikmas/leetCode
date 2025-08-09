@@ -1,7 +1,7 @@
 
 
 01 Explain event delegation ☑️
-02 Explain how this works in JavaScript ☑️
+02 Explain how this works in JavaScript ☑️ 
 03 Explain how prototypal inheritance works
 04 What do you think of AMD vs CommonJS?
 05 Explain why the following doesn't work as an IIFE: function foo(){ }();. What needs to be changed to properly make it an IIFE?
