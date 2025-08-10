@@ -11,6 +11,3 @@
 // 1. attach listener to a common ancestor (ul/table/doc) <- общий родитель
 // 2. in the handler: use event.target to chech which child element was interacted with
 // 3. optionally filter the event using matches() or closest()
-//
-//
-//

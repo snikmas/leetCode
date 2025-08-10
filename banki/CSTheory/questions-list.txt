@@ -4,14 +4,14 @@ CS Theory
 3	  What are data structures? ☑️
 4	  What is an algorithm? ☑️
 5	  What is scope / lexical scope in javascript? 
-6	  What is polymorphism?
+6	  What is polymorphism? ☑️
 7	  What is encapsulation? 
 8	  What is a Linked List ☑️
 9	  What is a Doubly Linked List ☑️
-10	What is a Queue
-11	What is a Stack
-12	What is a Hash Table
-13	What is a Heap
+10	What is a Queue ☑️
+11	What is a Stack ☑️
+12	What is a Hash Table ☑️
+13	What is a Heap ☑️
 14	What is a Trie
 15	What is a Tree
 16	What is a Binary Search Tree
