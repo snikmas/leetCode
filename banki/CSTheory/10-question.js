@@ -1,3 +1,5 @@
+// ANSWERS FOR: 1 2 3 4 6 10 11 12 13 
+
 //1  What is recursion and give an exmaple using js
 
 // Reucrsion is a programming techique where a function calls itself in order to solve a problem. Every calls breaks the problem into smaller subprolems until it reaches a base case, which stops the recursion
