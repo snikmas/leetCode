@@ -42,6 +42,7 @@ class Solution {
   
     return new String(a).substring(0, i);
   }
+
   
   // reverse a[] from a[i] to a[j]
     private void reverse(char[] a, int i, int j) {
