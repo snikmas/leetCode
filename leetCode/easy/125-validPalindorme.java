@@ -14,6 +14,4 @@ public class Solution {
         return true;
         
     }
-} 125-validPalindorme {
-  
 }
