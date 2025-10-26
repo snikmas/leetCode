@@ -1,0 +1,186 @@
+How many times has been solved
+
+Array / String (30 problems)
+
+Two Sum – Easy
+Best Time to Buy and Sell Stock – Easy
+Contains Duplicate – Easy
+Product of Array Except Self – Medium
+Maximum Subarray – Medium
+Maximum Product Subarray – Medium
+Find Minimum in Rotated Sorted Array – Medium
+Search in Rotated Sorted Array – Medium
+3Sum – Medium
+Container With Most Water – Medium
+Group Anagrams – Medium
+Top K Frequent Elements – Medium
+Longest Substring Without Repeating Characters – Medium
+Longest Repeating Character Replacement – Medium
+Permutation in String – Medium
+Valid Anagram – Easy
+Valid Palindrome – Easy
+Valid Sudoku – Medium
+Evaluate Reverse Polish Notation – Medium
+Longest Valid Parentheses – Hard
+Letter Combinations of a Phone Number – Medium
+Word Search – Medium
+Word Search II – Hard
+Combination Sum – Medium
+Combination Sum II – Medium
+Subsets – Medium
+Subsets II – Medium
+Permutations – Medium
+Permutations II – Medium
+Next Permutation – Medium
+
+Hash Map (15 problems)
+
+Valid Anagram – Easy
+Group Anagrams – Medium
+Top K Frequent Elements – Medium
+Longest Substring Without Repeating Characters – Medium
+Longest Repeating Character Replacement – Medium
+Permutation in String – Medium
+Encode and Decode Strings – Medium
+Longest Consecutive Sequence – Medium
+LRU Cache – Medium
+Design Twitter – Medium
+Insert Delete GetRandom O(1) – Medium
+Insert Delete GetRandom O(1) - Duplicates allowed – Medium
+Find the Difference – Easy
+Ransom Note – Easy
+First Unique Character in a String – Easy
+
+Linked List (15 problems)
+
+Reverse Linked List – Easy
+Merge Two Sorted Lists – Easy
+Reorder List – Medium
+Remove Nth Node From End of List – Medium
+Copy List with Random Pointer – Medium
+Add Two Numbers – Medium
+Find the Duplicate Number – Medium
+LRU Cache – Medium
+Merge k Sorted Lists – Hard
+Rotate List – Medium
+Swap Nodes in Pairs – Medium
+Partition List – Medium
+Sort List – Medium
+Intersection of Two Linked Lists – Easy
+Linked List Cycle – Easy
+
+Greedy (15 problems)
+
+Assign Cookies – Easy
+Lemonade Change – Easy
+Jump Game – Medium
+Jump Game II – Medium
+Gas Station – Medium
+Candy – Hard
+Queue Reconstruction by Height – Medium
+Minimum Number of Arrows to Burst Balloons – Medium
+Non-overlapping Intervals – Medium
+Minimum Interval to Include Each Query – Hard
+Reorganize String – Medium
+Task Scheduler – Medium
+Hand of Straights – Medium
+Split Array into Consecutive Subsequences – Hard
+Distant Barcodes – Medium
+
+Sorting (10 problems)
+
+Merge Intervals – Medium
+Insert Interval – Hard
+Non-overlapping Intervals – Medium
+Meeting Rooms II – Medium
+Kth Largest Element in an Array – Medium
+Find Median from Data Stream – Hard
+Top K Frequent Elements – Medium
+Wiggle Sort II – Medium
+K Closest Points to Origin – Medium
+Reorganize String – Medium
+
+Tree (20 problems)
+
+Maximum Depth of Binary Tree – Easy
+Validate Binary Search Tree – Medium
+Diameter of Binary Tree – Medium
+Balanced Binary Tree – Easy
+Invert Binary Tree – Easy
+Binary Tree Maximum Path Sum – Hard
+Binary Tree Level Order Traversal – Medium
+Serialize and Deserialize Binary Tree – Hard
+Subtree of Another Tree – Easy
+Construct Binary Tree from Preorder and Inorder Traversal – Medium
+Construct Binary Tree from Inorder and Postorder Traversal – Medium
+Populating Next Right Pointers in Each Node – Medium
+Populating Next Right Pointers in Each Node II – Medium
+Lowermost Node in Each Level – Medium
+Binary Tree Right Side View – Medium
+Count Complete Tree Nodes – Medium
+Kth Smallest Element in a BST – Medium
+Lowest Common Ancestor of BST – Medium
+Binary Tree Zigzag Level Order Traversal – Medium
+Binary Tree Vertical Order Traversal – Medium
+
+Backtracking (15 problems)
+
+Subsets – Medium
+Subsets II – Medium
+Permutations – Medium
+Permutations II – Medium
+Combination Sum – Medium
+Combination Sum II – Medium
+Palindrome Partitioning – Medium
+Palindrome Partitioning II – Medium
+Word Search – Medium
+Word Search II – Hard
+Letter Combinations of a Phone Number – Medium
+N-Queens – Hard
+Matchsticks to Square – Medium
+Sudoku Solver – Hard
+Expression Add Operators – Hard
+
+Heap / Priority Queue (10 problems)
+
+Kth Largest Element in an Array – Medium
+Last Stone Weight – Medium
+K Closest Points to Origin – Medium
+Kth Smallest Element in a Sorted Matrix – Medium
+Merge k Sorted Lists – Hard
+Find Median from Data Stream – Hard
+Reorganize String – Medium
+Task Scheduler – Medium
+IPO – Hard
+Find K Pairs with Smallest Sums – Medium
+
+Binary Search (10 problems)
+
+Binary Search – Easy
+Search Insert Position – Easy
+Search a 2D Matrix – Medium
+Find Minimum in Rotated Sorted Array – Medium
+Search in Rotated Sorted Array – Medium
+Find Peak Element – Medium
+Find First and Last Position of Element in Sorted Array – Medium
+Search a 2D Matrix II – Medium
+Kth Smallest Element in a Sorted Matrix – Medium
+Median of Two Sorted Arrays – Hard
+
+Graph (15 problems)
+
+Number of Islands – Medium
+Clone Graph – Medium
+Course Schedule – Medium
+Pacific Atlantic Water Flow – Medium
+Number of Closed Islands – Medium
+Surrounded Regions – Medium
+Rotting Oranges – Medium
+Walls and Gates – Medium
+Word Ladder – Hard
+Redundant Connection – Medium
+Reconstruct Itinerary – Hard
+Min Cost to Connect All Points – Medium
+Evaluate Division – Medium
+Cheapest Flights Within K Stops – Medium
+Find the City With the Smallest Number of Neighbors at a Threshold Distance – Medium
