@@ -9,4 +9,7 @@ NeetCode
 - Dynamic Array - Easy - x1 (11.05.2026)
 
 Array / String
-- Merge String Alternately - x1 (11.05.2026)
+- Merge String Alternately - Easy - x1 (11.05.2026)
+- Greatest Common Divisor of Strings - Easy - x1 (11.05.2026)
+- Kids With the Greatest Number of Candies - Easy - x1 (11.05.2026)
+- Can Place Flowers - Easy - x1 (11.05.2026)
