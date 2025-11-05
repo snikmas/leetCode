@@ -1,36 +1,74 @@
-public class Solution {
-    public static void slidingWindow(int[] arr, int k) {
-        int left = 0;  
-        int windowSum = 0;       
+class ListNode {
+    int val;
+    ListNode next;
 
-        for(int right = 0; right < arr.length; right++) {
+    public ListNode(int val){
+        this.val = val;
+        this.next = null;
+    }
+}
 
-            // expand it
-            if (if_conditionsGood) {
-                windowSum += arr[right];
-                right++;
-            } 
+class LinkedList {
 
-            // shrink it
-            if (if_fixedSize_window_OR_if_you_need_it) {
-                windowSum -= arr[left];
-                left++;
-            }
-        }
+    private ListNode head;
+    private ListNode tail;
+    private int size = 0;
 
-        // example: expand it && shrink it
-        // start: [1, 2, 3, 4, 5]; right = 0; left = 0; windowSum = 0;
-        // 0 -> windowSum = 1; right = 1 AND left = 0; <- expanded it
-        // 1 -> windowsSum = 3; right = 2 AND left = 0; <- expanded it
-        // 2 -> winddowsSum = 2; right = 2 AND NOW left = 1 <- shrinked it 
-        // 3 -> windowsSum = 5; right = 3 AND left = 1 <- expanded it
-        // now: [1, 2, 3, 4, 5]; 
-
+    public LinkedList() {
+        head = new ListNode(-1);
+        tail = head;
     }
 
-    public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5};
-        int k = 3;
-        slidingWindow(arr, k);
+    public int get(int index) {
+        if(index == 0) return head.next.val;
+        if(index == size - 1) return tail.val;
+
+        ListNode curNode = head;
+        for(int i = 0; i < index; i++){
+            if(curNode == null) return -1;
+            curNode = curNode.next;
+        }
+        return curNode.val;
+    }
+
+    public void insertHead(int val) {
+        ListNode newNode = new ListNode(val);
+        newNode.next = head;
+        head = newNode;
+        
+        
+    }
+
+    public void insertTail(int val) {
+        List newNode = new ListNode(val);
+        tail = newNode;
+    }
+
+    public boolean remove(int index) {
+        if(index > size) return false;
+        if(index == size) {
+            tail = null; // ? or tail.next
+            size--;
+            return true;
+        }
+        ListNode curNode = head;
+        for(int i = 0; i < index - 1; i++){
+            curNode = curNode.next;
+        }
+        curNode.next = curNode.next.next;
+        size--;
+        return true;
+    }
+
+    public ArrayList<Integer> getValues() {
+        List<Integer> arr = new ArrayList<>();
+        ListNode cur = head;
+        for(int i = 0; i < size; i++){
+            arr.add(head.value);
+            head = head.next;
+        }
+
+        return arr;
+
     }
 }
