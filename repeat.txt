@@ -12,4 +12,6 @@ Array / String
 - Merge String Alternately - Easy - x1 (11.05.2026)
 - Greatest Common Divisor of Strings - Easy - x1 (11.05.2026)
 - Kids With the Greatest Number of Candies - Easy - x1 (11.05.2026)
-- Can Place Flowers - Easy - x1 (11.05.2026)
+- Can Place Flowers - Easy - x1 - Easy - (11.05.2026)
+- Reverse Vowels of a String - x1 - Easy - (11.06.2026)
+- Move Zeroes - x1 - Easy - 11.06.2026
