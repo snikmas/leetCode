@@ -15,3 +15,14 @@ Array / String
 - Can Place Flowers - Easy - x1 - Easy - (11.05.2026)
 - Reverse Vowels of a String - x1 - Easy - (11.06.2026)
 - Move Zeroes - x1 - Easy - 11.06.2026
+- Is Subsequence - x1 - Easy - 11.06.2026
+
+
+Easy Problems:
+1) Array and String
+- 345. Reverse Vowels of a String - x2
+- 605. Can Place Flowers - PROBLEM - x1
+- 1431. Kids With the Greatest Number of Candies - x1
+- 1768. Merge Strings Alternately
+- 1071. Greatest Common Divisor of Strings - x1
+- 151. Reverse Words in a String -x1
