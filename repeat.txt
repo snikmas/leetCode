@@ -25,4 +25,7 @@ Easy Problems:
 - 1431. Kids With the Greatest Number of Candies - x1
 - 1768. Merge Strings Alternately
 - 1071. Greatest Common Divisor of Strings - x1
-- 151. Reverse Words in a String -x1
+- 151. Reverse Words in a String -x1 - IS OK (19.11.2025)
+- 334. Increasing Triplet Subsequence - x1 PROBLEM
+- 443. String Compression - x1 BIG PROBLEMS
+- 283. Move Zeroes - x1 PROBLEMS
